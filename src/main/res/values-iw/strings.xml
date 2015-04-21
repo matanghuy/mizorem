@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מי זורם?</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="title_activity_sign_up">הירשם</string>
+    <string name="title_activity_dispatch">מי זורם?</string>
+    <string name="click_for_details">לחץ לפרטים נוספים…</string>
+    <string name="save">שמור</string>
+
+    <string name="error_dialog_title">שגיאה</string>
+    <string name="error_dialog_button_text">אישור</string>
+<!--Main Activity-->
+    <string name="settings">הגדרות</string>
+    <string name="click_to_create">לחץ כאן ליצירת ארוע חדש…</string>
+    <string name="action_logout">התנתק</string>
+<!--Edit event activity-->
+    <string name="title_activity_create_event">צור ארוע</string>
+    <string name="event_details">פרטי ארוע</string>
+    <string name="attendees">מוזמנים</string>
+    <string name="what">מה קורה?</string>
+    <string name="where">איפה?</string>
+    <string name="when">מתי?</string>
+    <string name="event_name">שם הארוע</string>
+    <string name="event_place">מקום הארוע</string>
+    <string name="change">שנה</string>
+    <string name="date_with_colon">תאריך:</string>
+    <string name="time_with_colon">שעה:</string>
+    <string name="remove_string">הסר מוזמן</string>
+    <string name="title_activity_picker">בחר חברים</string>
+    <string name="event_name_missing">יש להכניס שם ארוע</string>
+    <string name="event_place_missing">יש להכניס שם מקום</string>
+<!--Settings Activity-->
+    <string name="search_radius">רדיוס חיפוש</string>
+    <string name="search_radius_summary">הרדיוס בו יופיעו אירועים</string>
+    <string name="show_past_events">הצג אירועים בעבר</string>
+    <string name="show_past_events_summary">כאשר מופעל, האפליקציה תציג אירועים שהתרחשו כבר</string>
+</resources>

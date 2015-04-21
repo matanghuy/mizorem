@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id" translatable="false">1565142690435849</string>
+    <string name="app_name">Mi Zorem</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_dispatch">Mi Zorem</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_create_event">Create Event</string>
+    <string name="event_details">Event Details</string>
+    <string name="attendees">Attendees</string>
+    <string name="title_activity_picker">PickerActivity</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="error_dialog_button_text">OK</string>
+    <string name="settings">Settings</string>
+    <string name="profile_picture_content_desc" translatable="false">Facebook profile picture</string>
+    <string name="click_to_create">Click here to create event…</string>
+    <string name="wordart_application_name" translatable="false">Application name word art</string>
+    <string name="click_for_details">Click for more details…</string>
+    <string name="what">What</string>
+    <string name="event_name">Event Name</string>
+    <string name="where">Where</string>
+    <string name="event_place">Event Place</string>
+    <string name="when">When</string>
+    <string name="date_with_colon">Date:</string>
+    <string name="change">Change</string>
+    <string name="time_with_colon">Time:</string>
+    <string name="remove_string">Remove Friend</string>
+    <string name="save">save</string>
+    <string name="event_name_missing">Event Name is required</string>
+    <string name="event_place_missing">Event Place is required</string>
+    <string name="search_radius">Search Radius</string>
+    <string name="search_radius_summary">The radius that events retrieved from</string>
+    <string name="show_past_events">Show Past Events</string>
+    <string name="show_past_events_summary">If on, Past events will be shown on map</string>
+
+</resources>

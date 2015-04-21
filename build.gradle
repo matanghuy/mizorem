@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.example.matanghuy.mizorem"
+        minSdkVersion 19
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [google_api_key:"AIzaSyB15vd1vacXETEYiBKAkCnyqSa_sN5UINc"]
+
+        }
+        debug {
+            debuggable true
+            manifestPlaceholders = [google_api_key:"AIzaSyCFuJr46cp9LZIF7nBK4yV5_I8GVpAoKaI"]
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.parse.bolts:bolts-android:1.2.0'
+    compile 'com.android.support:appcompat-v7:22.0.0'
+    compile 'com.google.android.gms:play-services:7.0.0'
+    compile 'com.facebook.android:facebook-android-sdk:3.23.1'
+    compile 'com.android.support:support-v4:22.0.0'
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General" >
+        <ListPreference
+            android:key="searchRadius"
+            android:title="@string/search_radius"
+            android:summary="@string/search_radius_summary"
+            android:entries="@array/pref_search_radius_keys"
+            android:entryValues="@array/pref_search_radius_values"
+            android:defaultValue="5"
+            />
+        <SwitchPreference
+            android:key="showPastEvents"
+            android:title="@string/show_past_events"
+            android:summary="@string/show_past_events_summary"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

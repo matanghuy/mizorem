@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="70dp" android:padding="5dp"
+    android:background="?android:attr/activatedBackgroundIndicator">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:id="@+id/ivAttendeePicture"
+        android:contentDescription="@string/profile_picture_content_desc"/>
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:id="@+id/tvAttendeeName"
+        android:textStyle="bold"
+        android:gravity="center_vertical" />
+
+
+</LinearLayout>
